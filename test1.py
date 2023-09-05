@@ -24,8 +24,8 @@ print(ele2) # XPathSelector(//*[@text="书城"] 返回的是一个元素对象
 ele1.screenshot()
 ele2.screenshot()
 
-# d(resourceId="com.zhao.myreader:id/et_search_key").click()
-# d.send_keys("大佬她不可能当女配", clear=True)
-# d(resourceId="com.zhao.myreader:id/tv_search_conform").click()
-# d.xpath('//*[@resource-id="com.zhao.myreader:id/ll_title_back"]/android.widget.ImageView[1]').click()
+d(resourceId="com.zhao.myreader:id/et_search_key").click()
+d.send_keys("大佬她不可能当女配", clear=True)
+d(resourceId="com.zhao.myreader:id/tv_search_conform").click()
+d.xpath('//*[@resource-id="com.zhao.myreader:id/ll_title_back"]/android.widget.ImageView[1]').click()
 d.app_stop("com.zhao.myreader") # 使用包名停止应用
